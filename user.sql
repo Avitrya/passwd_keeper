@@ -1,0 +1,2 @@
+create table users (userid int(10) primary key auto_increment, username varchar(20) not null, password varchar(20) not null);
+create table website(userid int(10), website varchar(20), username varchar(20) not null, password varchar(500));
